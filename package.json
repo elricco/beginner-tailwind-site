@@ -1,0 +1,31 @@
+{
+  "name": "beginner-tailwind-site",
+  "version": "1.0.0",
+  "description": "Just a beginners try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elricco/beginner-tailwind-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elricco/beginner-tailwind-site/issues"
+  },
+  "homepage": "https://github.com/elricco/beginner-tailwind-site#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10",
+    "postcss": "^8.1.1",
+    "node-forge": "latest"
+  },
+  "devDependencies": {
+    "parcel-bundler": "latest",
+    "postcss-modules": "latest"
+  }
+}
